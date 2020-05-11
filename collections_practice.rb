@@ -21,9 +21,11 @@ end
 def kesha_maker(array)
   array.each {|namez| namez[2] = "$"}
 end
+
 def find_a(array)
   array.select {|awords| awords.start_with?("a")}
 end
+ 
  def sum_array(array)
   sum = 0
   array.each do |num|
