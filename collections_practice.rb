@@ -32,6 +32,6 @@ end
   sum
 end
  def add_s(array)
-  array.each do |blah| blah << "s"
+  array.each do |blah| if blah << "s"
   end
  end
