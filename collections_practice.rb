@@ -32,7 +32,6 @@ end
   sum
 end
  def add_s(array)
-   flops
   array.each do |blah| if index[blah] == index[1] blah
   else blah << "s"
   end
