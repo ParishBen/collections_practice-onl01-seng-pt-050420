@@ -42,7 +42,7 @@ end
     if array[1] == blah
       word
     else
-      word << "s"
+    |word|  word << "s"
     end
   end
 end
