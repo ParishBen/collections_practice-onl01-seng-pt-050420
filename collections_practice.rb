@@ -25,10 +25,11 @@ def find_a(array)
   array.select {|awords| awords.start_with?("a")}
 end
  def sum_array(array)
-  i=0 
-  while i<array.length
-   array.each {|a,b| a+b}
- end
+  sum = 0
+  array.each do |num|
+    sum+=num
+  end
+  sum
  def add_s(array)
-   
+  array.each {|blah| blah<<"s"}
  end
