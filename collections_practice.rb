@@ -31,12 +31,15 @@ end
   end
   sum
 end
+ 
  def add_s(array)
-  array.each do |blah| if index[blah] == index[1] blah
-  else blah << "s"
+  array.each do |blah| if index[blah] == index[1] 
+  blah
+  else blah + "s"
   end
   array
  end
+ 
  def add_s(array)
   array.collect do |blah|
     if array[1] == blah
