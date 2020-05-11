@@ -25,7 +25,7 @@ def find_a(array)
   array.select {|awords| awords.start_with?("a")}
 end
  def sum_array(array)
-   array.collect {|a,b| a+b}
+   array.map {|a,b| a+b}
  end
  def add_s(array)
  end
