@@ -37,3 +37,12 @@ end
   end
   array
  end
+ def add_s(array)
+  array.collect do |blah|
+    if array[1] == blah
+      word
+    else
+      word + "s"
+    end
+  end
+end
