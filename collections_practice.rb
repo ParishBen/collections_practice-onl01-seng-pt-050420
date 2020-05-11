@@ -19,7 +19,7 @@ def  reverse_array(array)
   array.reverse
 end
 def kesha_maker(array)
-  array.each {|namez| namez[2] = "$"}
+  array.map {|namez| namez[2] = "$"}
 end
 def find_a(array)
   array.find {|awords| awords.start_with?("a")}
