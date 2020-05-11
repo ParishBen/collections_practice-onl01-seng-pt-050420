@@ -47,3 +47,5 @@ end
     else
    word + "s"
     end
+  end
+end 
